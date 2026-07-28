@@ -13,18 +13,7 @@ No hay symlinks, plugins ni scripts de instalación: el flujo es copiar carpetas
 ## Convenciones
 
 - Cada skill vive en `skills/<nombre-en-kebab-case>/`.
-- Cada skill tiene un `SKILL.md` con frontmatter YAML (formato estándar de Agent Skills):
-
-  ```markdown
-  ---
-  name: nombre-de-la-skill
-  description: Cuándo usar esta skill y qué hace.
-  ---
-
-  Instrucciones de la skill...
-  ```
-
-- Los ficheros de apoyo (scripts, plantillas, referencias) van dentro de la carpeta de la skill.
+- Cada skill es nombrada con el prefijo `d-`, por tanto el nombre es `skills/d-<nombre-en-kebab-case>/`.
 
 ## Estructura
 
